@@ -1,0 +1,6 @@
+SourceMap	sourcemap.html#SourceMap	sourcemap: SourceMap	
+encode	sourcemap.html#encode,seq[int]	sourcemap: encode(values: seq[int]): string	
+tokenize	sourcemap.html#tokenize.i,string	sourcemap: tokenize(line: string): (int, string)	
+parse	sourcemap.html#parse,string	sourcemap: parse(source: string): SourceInfo	
+toSourceMap	sourcemap.html#toSourceMap,SourceInfo,string	sourcemap: toSourceMap(info: SourceInfo; file: string): SourceMap	
+genSourceMap	sourcemap.html#genSourceMap,string,string	sourcemap: genSourceMap(source: string; outFile: string): SourceMap	
